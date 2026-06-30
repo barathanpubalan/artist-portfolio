@@ -1,0 +1,61 @@
+/* 1. Style the whole page background and text */
+body {
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    background-color: #121212; /* A clean, soft off-white */
+    color: #ffffff;            /* Dark charcoal text, easier on the eyes than pure black */
+    max-width: 800px;          /* Prevents the website from stretching too wide on big screens */
+    margin: 0 auto;            /* Centers the entire website on the screen */
+    padding: 20px;
+    line-height: 1.6;          /* Adds some breathing room between lines of text */
+}
+
+/* 2. Center the header and style the links */
+header {
+    text-align: center;
+    padding: 40px 0;
+}
+
+nav a {
+    color: #555;
+    text-decoration: none;     /* Removes the ugly underline from links */
+    font-weight: bold;
+    margin: 0 10px;
+}
+
+nav a:hover {
+    color: #000;               /* Makes links turn black when you hover over them */
+}
+
+/* 3. Make the artwork image look professional */
+img {
+    max-width: 100%;           /* Ensures the image never overflows the screen */
+    height: auto;
+    border-radius: 8px;        /* Softens the sharp corners of the photo */
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* Adds a subtle, elegant drop-shadow */
+    display: block;
+    margin: 20px auto;         /* Centers the image */
+}
+
+/* 4. Make the contact form look clean */
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;   /* Makes sure padding doesn't mess up the width */
+}
+
+button {
+    background-color: #111;    /* Sleek black button */
+    color: white;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+button:hover {
+    background-color: #333;    /* Lightens slightly when hovered */
+}
